@@ -1,0 +1,13 @@
+{
+    "dataset_path": "hf://datasets/rohan-chandrashekar/Financial_Fraud_Detection/New_Dataset.csv",
+    "dataset_frac": 0.005,
+
+    "hidden_size": 32,
+    "decay": 0.9,
+    "time_steps": 10,
+
+    "learning_rate": 1e-3,
+    "epochs": 50,
+    "batch_size": 64,
+    "validation_split": 0.2
+}
